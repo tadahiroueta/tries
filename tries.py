@@ -1,7 +1,5 @@
 import click
-from features import *
-from nodes import *
-# from features import addWord, deleteWord, isValidWord, getAutofill, getTrie
+from features import addWord, deleteWord, isValidWord, getAutofill, displayTrie
 
 def exitFailure():
   print('Invalid command')
