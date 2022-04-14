@@ -1,2 +1,0 @@
-click==8.1.2
-mysql-connector==8.0.28
