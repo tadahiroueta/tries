@@ -70,6 +70,7 @@ npm install --editable .
 ```
    
 ## Usage
+On the same terminal.
 
   tries add [word] - add specified word to trie
   
