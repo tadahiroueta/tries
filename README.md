@@ -66,7 +66,7 @@ Clear documentation on how to install and use the CLI as a separate README.md (w
 2. Open the main directory on a terminal.
 3. Write the following in the terminal:
 ```sh
-npm install --editable .
+pip install --editable .
 ```
    
 ## Usage
