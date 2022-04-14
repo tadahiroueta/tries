@@ -71,15 +71,15 @@ npm install --editable .
    
 ## Usage
 
-  add [word] - add specified word to trie
+  tries add [word] - add specified word to trie
   
-  delete [word] - delete specified word to trie
+  tries delete [word] - delete specified word to trie
 
-  search [word] - returns whether the word is valid in the trie
+  tries search [word] - returns whether the word is valid in the trie
 
-  autofill [word] - returns the possible words that complete [word] in the trie
+  tries autofill [word] - returns the possible words that complete [word] in the trie
 
-  display - displays the current state of the trie
+  tries display - displays the current state of the trie
   
 
 ## Built with
