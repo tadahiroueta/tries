@@ -15,7 +15,18 @@ def requireWord(word):
 @click.argument('word', required=False)
 def tries(call, word=None):
   '''
-  This carries out the CLI user commands.
+  Carries out the CLI user commands.
+
+  add [word] - add specified word to trie
+  
+  delete [word] - delete specified word to trie
+
+  search [word] - returns whether the word is valid in the trie
+
+  autofill [word] - returns the possible words that complete [word] in the trie
+
+  display - displays the current state of the trie
+
   '''
   if call == 'add':
     requireWord(word)
