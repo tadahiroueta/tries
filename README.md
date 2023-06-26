@@ -1,4 +1,4 @@
-# Tries
+# Tries (DISCONTINUED)
 A trie system that is hosted online with a global state that supports multiple concurrent clients and the following operations.
 
 This is part of an assessment on data structures and algorithms.
